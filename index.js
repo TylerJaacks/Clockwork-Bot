@@ -12,11 +12,7 @@ const Discord = require('discord.js')
 
 const client = new Discord.Client();
 
-fs.readFile('token.txt', 'utf8', function(err, data) {
-    if (err) throw err;
-
-    client.login(data)
-});
+client.login(process.env.TOKEN)
 
 client.once('ready', () => {
     console.log('Clockwork Bot Ready!')
