@@ -1,2 +1,2 @@
 # Clockwork-Bot
-Posts TikToks
+Discord bot that posts mp4 of TikTok links.
