@@ -22,6 +22,7 @@
     "cheerio": "^1.0.0-rc.3",
     "discord.js": "^11.5.1",
     "request": "^2.88.2",
+    "tiktok-scraper": "^1.1.11",
     "xpath": "0.0.27"
   }
 }
