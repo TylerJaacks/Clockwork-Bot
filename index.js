@@ -91,7 +91,8 @@ const options = {
 };
 
 client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
+    console.log('Starting Clockwork Bot...');
+    console.log('Logged in as ${client.user.tag}!');
 });
   
 client.on('message', msg => {
